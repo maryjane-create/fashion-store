@@ -1,7 +1,38 @@
 img{
-    float: left;
+    float: right;
+    width: 35px;
+    height: 35px;
 }
 header b{
+    font-size: 50px;
+    text-align: center;
+}
+
+nav ul li {
+    font-size: 25px;
+    background-color: darkgray;
+    display: inline;
+    color: beige;
+    margin: 10px;
+}
+
+
+section h1 {
     float: inside;
-    font-size: 30px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    border: 3px solid green;
+}
+
+section ol li{
+    padding: 10px;
+    border: 5px solid grey;
+    vertical-align: 20px;
+}
+
+footer h1{
+    vertical-align: 30px;
+    font-size: 20px;
+    text-align: center;
 }
